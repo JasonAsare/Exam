@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(45deg, navy, blue, navy  );
+    position: fixed;
+    width: 100%;
+}
+
+.nav nav a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: color 1s;
+}
+
+.nav nav a:hover{
+    color: red;
+    transition: scale(1.2);
+}
+
+.nav label{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+.hero span{
+    color: white;
+}
+
+.hero{
+    z-index: 1;
+    bottom: 20%;
+    padding-top: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+body{
+    background-image: url(/assets/image/professional-programmer-working-late-dark-office_1098-18705.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+}
+
+.span{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn button{
+    color: white;
+    background: transparent;
+    width: 120px;
+    height: 40px;
+    border-radius: 7px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: color 1s;
+    border: 3px solid blue;
+}
+
+.pic1 img{
+    width: 350px;
+    padding-bottom: 20px;
+
+}
+
+.span span{
+    
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.btn button:hover{
+    background-color: navy;
+    transition: scale(1.2);
+}
+
+.pic1{
+    background: linear-gradient(45deg, navy, blue, navy);
+    border-radius: 70px;
+    margin-right: 200px;
+    height: 400px;
+}
+
+.hero .span .s2{
+    color: navy;
+}
+
+.profile{
+    margin-top: 80px;
+    background: linear-gradient(45deg, navy, blue, navy  );
+}
+
+.profile label{
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-left: 200px;
+}
+
+
